@@ -12,6 +12,10 @@
         int y = 10;
         int z = x + y;
         Console.WriteLine($"The sum of {x} and {y} is {z}");
+        int a = 15;
+        int b = 20;
+        int c = a * b + z;
+        Console.WriteLine($"The result of {a} * {b} + {z} is {c}");
 
     }
 }
